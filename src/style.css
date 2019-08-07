@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  border: 1px dashed #00d9e1;
+  position: absolute;
+  z-index: 100;
+  box-sizing: border-box;
+}
+.moveable-line {
+  background: transparent !important;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.item {
+  user-select: none;
+}
+.item {
+  font-size: 24px;
+  border-width: 1px;
+  position: absolute;
+  border-style: solid;
+  border-color: transparent;
+  transition: border-color 0.1s linear;
+}
+.item:hover {
+  border-color: #00d9e1;
+}
+.item.selected {
+  border: 1px solid #00d9e1;
+}
+.item.selecting {
+  border: 1px solid #00d9e1;
+}
+.selectable-selectbox {
+  z-index: 9000;
+  position: absolute;
+  cursor: default;
+  background: none;
+  border: 1px solid #00c4cc;
+}
+.selectable-selectbox::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0.15;
+  background-color: #00c4cc;
+}
