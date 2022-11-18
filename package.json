@@ -11,7 +11,7 @@
     "react-dnd-html5-backend": "^9.3.4",
     "react-dom": "^16.8.6",
     "react-moveable": "^0.9.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-selectable-fast": "^2.3.1"
   },
   "scripts": {
